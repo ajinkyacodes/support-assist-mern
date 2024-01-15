@@ -25,4 +25,5 @@ yarn-error.log*
 # development
 .vscode
 .idea
+.env
 package-lock.json
