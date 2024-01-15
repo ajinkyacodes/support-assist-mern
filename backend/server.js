@@ -36,4 +36,8 @@ if (process.env.NODE_ENV === "production") {
 
 app.use(errorHandler); //Middleware for errors
 
-app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
+if (process.env.NODE_ENV === "production") {
+  app.listen(PORT);
+} else {
+  app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
+}
