@@ -73,7 +73,3 @@ npm start
 ```
 
 #### The Build Project Server with client build should now be running at http://localhost:5000/ 
-
-## Live Demo
-
-Visit: [https://support-assist-c37063096ccf.herokuapp.com/](https://support-assist-c37063096ccf.herokuapp.com/)
